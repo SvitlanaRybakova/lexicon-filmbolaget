@@ -135,104 +135,102 @@
         <!-- /.main-content -->
 
         <aside class="series">
-          <h2>Series</h2>
-
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="card series-1">
-                  <span class="card-subtitle">Episode # 1</span>
-                  <h2 class="serie-title">Alien (1979)</h2>
                   <a
                     href="https://youtu.be/4lRNBd8Vook?si=HLnGflyDvZTzFSPs"
                     target="_blank"
                   >
+                    <span class="card-subtitle">Episode # 1</span>
+                    <h2 class="serie-title">Alien (1979)</h2>
                   </a>
                 </div>
               </div>
 
               <div class="swiper-slide">
                 <div class="card series-2">
-                  <span class="card-subtitle">Episode # 2</span>
-                  <h2 class="serie-title">Aliens (1986)</h2>
                   <a
                     href="https://youtu.be/oSeQQlaCZgU?si=km6F8IJ-XnL9-Ai-"
                     target="_blank"
                   >
+                    <span class="card-subtitle">Episode # 2</span>
+                    <h2 class="serie-title">Aliens (1986)</h2>
                   </a>
                 </div>
               </div>
 
               <div class="swiper-slide">
-                <div class="card series-2">
-                  <span class="card-subtitle">Episode # 3</span>
-                  <h2 class="serie-title">Alien 3 (1992)</h2>
+                <div class="card series-3">
                   <a
                     href="https://youtu.be/KUTaNMJJBa8?si=40Sog4JmgPOWnwZM"
                     target="_blank"
                   >
+                    <span class="card-subtitle">Episode # 3</span>
+                    <h2 class="serie-title">Alien 3 (1992)</h2>
                   </a>
                 </div>
               </div>
 
               <div class="swiper-slide">
-                <div class="card series-2">
-                  <span class="card-subtitle">Episode # 4</span>
-                  <h2 class="serie-title">Alien: Resurrection (1997)</h2>
+                <div class="card series-4">
                   <a
                     href="https://youtu.be/53If-aOy58A?si=GIXuXzV-4HS9SkzV"
                     target="_blank"
                   >
+                    <span class="card-subtitle">Episode # 4</span>
+                    <h2 class="serie-title">Alien: Resurrection (1997)</h2>
                   </a>
                 </div>
               </div>
 
               <div class="swiper-slide">
-                <div class="card series-2">
-                  <span class="card-subtitle">Episode # 5</span>
-                  <h2 class="serie-title">Alien vs. Predator (2004)</h2>
+                <div class="card series-5">
                   <a
                     href="https://youtu.be/Cld40qD7HcY?si=8taAknbyhQxGSDqc"
                     target="_blank"
                   >
+                    <span class="card-subtitle">Episode # 5</span>
+                    <h2 class="serie-title">Alien vs. Predator (2004)</h2>
                   </a>
                 </div>
               </div>
 
               <div class="swiper-slide">
-                <div class="card series-2">
-                  <span class="card-subtitle">Episode # 6</span>
-                  <h2 class="serie-title">
-                    Aliens vs. Predator: Requiem (2007)
-                  </h2>
+                <div class="card series-6">
                   <a
                     href="https://youtu.be/XbTWLrZLYmU?si=ojm5cl7rkRSC-bmY"
                     target="_blank"
                   >
+                    <span class="card-subtitle">Episode # 6</span>
+                    <h2 class="serie-title">
+                      Aliens vs. Predator: Requiem (2007)
+                    </h2>
                   </a>
                 </div>
               </div>
 
               <div class="swiper-slide">
-                <div class="card series-2">
-                  <span class="card-subtitle">Episode # 7</span>
+                <div class="card series-7">
                   <h2 class="serie-title">Prometheus (2012)</h2>
                   <a
                     href="https://youtu.be/XbTWLrZLYmU?si=PeIRkizUGZxwRMa0"
                     target="_blank"
                   >
+                    <span class="card-subtitle">Episode # 7</span>
                   </a>
                 </div>
               </div>
 
               <div class="swiper-slide">
-                <div class="card series-2">
-                  <span class="card-subtitle">Episode # 8</span>
-                  <h2 class="serie-title">Alien: Covenant (2017)</h2>
+                <div class="card series-8">
                   <a
                     href="https://youtu.be/svnAD0TApb8?si=WLrGiJ4tBGkQoeAX"
                     target="_blank"
                   >
+                    <span class="card-subtitle">Episode # 8</span>
+                    <h2 class="serie-title">Alien: Covenant (2017)</h2>
                   </a>
                 </div>
               </div>
@@ -250,12 +248,10 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer-content">
-          <span class="copyright"
-            >© 2024 This page uses information from the TMDB API. All rights
-            reserved. Filmbolaget FS</span
-          >
-        </div>
+        <p class="footer-content">
+          © 2024 This page uses information from the TMDB API. All rights
+          reserved. Filmbolaget FS
+        </p>
       </div>
     </footer>
 
@@ -263,17 +259,14 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 30,
         loop: true,
         autoplay: {
-          delay: 2500,
+          delay: 3500,
           disableOnInteraction: true,
         },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
+
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
